@@ -1,0 +1,6 @@
+c:\users\toby_000\documents\visual studio 2013\Projects\HelloCalculator\HelloCalculator\bin\Debug\HelloCalculator.exe.config
+c:\users\toby_000\documents\visual studio 2013\Projects\HelloCalculator\HelloCalculator\bin\Debug\HelloCalculator.exe
+c:\users\toby_000\documents\visual studio 2013\Projects\HelloCalculator\HelloCalculator\bin\Debug\HelloCalculator.pdb
+c:\users\toby_000\documents\visual studio 2013\Projects\HelloCalculator\HelloCalculator\obj\Debug\HelloCalculator.csprojResolveAssemblyReference.cache
+c:\users\toby_000\documents\visual studio 2013\Projects\HelloCalculator\HelloCalculator\obj\Debug\HelloCalculator.exe
+c:\users\toby_000\documents\visual studio 2013\Projects\HelloCalculator\HelloCalculator\obj\Debug\HelloCalculator.pdb

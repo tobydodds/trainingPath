@@ -1,0 +1,6 @@
+c:\users\toby_000\documents\visual studio 2013\Projects\DinerMax3000\DinerMax3000Console\bin\Debug\DinerMax3000Console.exe.config
+c:\users\toby_000\documents\visual studio 2013\Projects\DinerMax3000\DinerMax3000Console\bin\Debug\DinerMax3000Console.exe
+c:\users\toby_000\documents\visual studio 2013\Projects\DinerMax3000\DinerMax3000Console\bin\Debug\DinerMax3000Console.pdb
+c:\users\toby_000\documents\visual studio 2013\Projects\DinerMax3000\DinerMax3000Console\obj\Debug\DinerMax3000Console.csprojResolveAssemblyReference.cache
+c:\users\toby_000\documents\visual studio 2013\Projects\DinerMax3000\DinerMax3000Console\obj\Debug\DinerMax3000Console.exe
+c:\users\toby_000\documents\visual studio 2013\Projects\DinerMax3000\DinerMax3000Console\obj\Debug\DinerMax3000Console.pdb

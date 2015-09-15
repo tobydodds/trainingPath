@@ -1,0 +1,30 @@
+Pluralsight course recommendations from Sipke
+ 
+http://www.pluralsight.com/courses/becoming-dotnet-developer (probably want to skip the chapters on WCF and WPF)
+http://www.pluralsight.com/courses/csharp-fundamentals-csharp5 (even if just to reinforce what you already know about C#)
+http://www.pluralsight.com/courses/csharp-fundamentals-2
+http://www.pluralsight.com/courses/linq-fundamentals (LINQ fundamentals)
+http://www.pluralsight.com/courses/principles-oo-design (a must-watch for every developer)
+http://www.pluralsight.com/courses/encapsulation-solid (SOLID principles)
+http://www.pluralsight.com/courses/aspdotnet-mvc (basic introduction to ASP.NET MVC)
+http://www.pluralsight.com/courses/mvc4 (even if just to reinforce what you already know about ASP.NET MVC)
+http://www.pluralsight.com/courses/mvc4-building (even if just to reinforce what you already know about ASP.NET MVC)
+http://www.pluralsight.com/courses/csharp-generics (deep dive into generics)
+http://www.pluralsight.com/courses/vs-intro-dbg (debugging)
+ 
+
+Becoming a .Net Developer
+
+Access Modifiers
+	Private
+	Public
+ 	Protected
+ 	Internal
+ 	Protected Internal
+
+Static keyword
+	Static = only one, automatically created
+		Static can only call other static methods
+		
+For and Foreach looping		
+Gets & Sets
