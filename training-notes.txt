@@ -28,3 +28,10 @@ Static keyword
 		
 For and Foreach looping		
 Gets & Sets
+
+N-Tier Application Architecture
+	Data layer
+	Logic layer - "Business layer"
+	Presentation layer
+	
+	

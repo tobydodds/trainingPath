@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AACB29FA-C981-46DA-B86B-BD6A4EBDFC86}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{034AF54E-5F7F-47DF-AE05-10C4BDEAF112}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DinerMax3000Console</RootNamespace>
-    <AssemblyName>DinerMax3000Console</AssemblyName>
+    <RootNamespace>DinerMax3000.Business</RootNamespace>
+    <AssemblyName>DinerMax3000BusinessLayer</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,17 +39,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="DrinkMenu.cs" />
+    <Compile Include="dsDinerMax3000.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDinerMax3000.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodMenu.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="MenuItem.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DinerMax3000BusinessLayer\DinerMax3000BusinessLayer.csproj">
-      <Project>{034af54e-5f7f-47df-ae05-10c4bdeaf112}</Project>
-      <Name>DinerMax3000BusinessLayer</Name>
-    </ProjectReference>
+    <None Include="app.config" />
+    <None Include="dsDinerMax3000.xsc">
+      <DependentUpon>dsDinerMax3000.xsd</DependentUpon>
+    </None>
+    <None Include="dsDinerMax3000.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDinerMax3000.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsDinerMax3000.xss">
+      <DependentUpon>dsDinerMax3000.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
